@@ -39,7 +39,7 @@
             </div>
 
             <div class="p-4 bg-black">
-              Experienced Full Stack JavaScript Web Developer
+              Web Developer and Designer
             </div>
 
             <div>
@@ -160,57 +160,47 @@
     <div id="work" class="collapse">
       <div class="card card-body bg-warning text-white py-5 rounded-0">
         <h2>My Work</h2>
-        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
+        <p class="lead">Here are some of my projects.</p>
       </div>
 
       <div class="card card-body py-5 rounded-0">
         <h3>What Have I Built?</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum repudiandae debitis, nam iste amet.</p>
+        <p>Most of these are works in progress. Though you may get a sense of my development style.</p>
         <div class="row no-gutters">
-          <div class="col-md-3">
-            <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
-              <img src="https://unsplash.it/600.jpg?image=252" alt="" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
-              <img src="https://unsplash.it/600.jpg?image=253" alt="" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox">
-              <img src="https://unsplash.it/600.jpg?image=254" alt="" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox">
-              <img src="https://unsplash.it/600.jpg?image=255" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
+          <div class="col-md-3 card">
+            <div class="portfolio-item">
+              <a href="img/daytracker.png" data-toggle="lightbox">
+                <img src="img/dayTracker.png" alt="" class="img-fluid">
+              </a>              
+              <div class="dayTrackerLogo">
+                <img src="img/dayTracker.svg" alt="" class="img-fluid">
 
-        <div class="row no-gutters">
-          <div class="col-md-3">
-            <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox">
-              <img src="https://unsplash.it/600.jpg?image=256" alt="" class="img-fluid">
-            </a>
+              </div>
+              <p class="p-2 portfolio-copy text-justify">Day Tracker is a Web Tracking App to help you manage your time more wisely. More than just a time tracker, DayTracker is a minimalist dayplanner app made with convinience in mind. Take full control of your time and eliminate procrastination with Daytracker.</p>
+              <a class="p-2 mb-2 d-block" href="https://github.com/actlikewill/daytracker-api"> >Link to Backend Repository</a>              
+            </div>
+            
           </div>
-          <div class="col-md-3">
-            <a href="https://unsplash.it/1200/768.jpg?image=257" data-toggle="lightbox">
-              <img src="https://unsplash.it/600.jpg?image=257" alt="" class="img-fluid">
-            </a>
+          <div class="ml-5 col-md-3 card">
+            <div class="portfolio-item ">
+              <div class="kanairoimg">
+                <a href="img/kanairo2.png" data-toggle="lightbox">
+                  <img src="img/kanairo2.png" alt="" class="img-fluid">
+                </a>
+              </div>
+              
+              <div class="kanairologo">
+                <img src="img/kanairologo.svg" alt="" class="">
+
+              </div>
+              <p class="p-2 portfolio-copy text-justify">Kanairo is a local buy and sell platform that targets users within the Nairobi area and its environs. The main project started as a Facebook group and evolved into this website. I built the backend using Django and the Frontend is a React based Web App.</p>
+              
+              <a class="p-2 mb-2 kanairolinks" href="https://kanairo-fe.herokuapp.com/home">Heroku Prototype</a>
+              <a class="p-2 mb-2 kanairolinks" href="https://github.com/actlikewill/kanairo-backend">Backend Repository</a>
+            </div>
           </div>
-          <div class="col-md-3">
-            <a href="https://unsplash.it/1200/768.jpg?image=258" data-toggle="lightbox">
-              <img src="https://unsplash.it/600.jpg?image=258" alt="" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="https://unsplash.it/1200/768.jpg?image=259" data-toggle="lightbox">
-              <img src="https://unsplash.it/600.jpg?image=259" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
+          
+        </div>       
       </div>
     </div>
 
@@ -218,13 +208,13 @@
     <div id="contact" class="collapse">
       <div class="card card-body bg-danger text-white py-5 rounded-0">
         <h2>Contact</h2>
-        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
+        <p class="lead">Please drop me a line. My email is wilsongaturu@gmail.com</p>
       </div>
 
       <div class="card card-body py-5 rounded-0">
         <h3>Get In Touch</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quos illo, dicta id voluptates enim.</p>
-        <form>
+        <p>This form will open your local mail client.</p>
+        <form id="contactForm">
           <div class="form-group">
             <div class="input-group input-group-lg">
               <div class="input-group-prepend">
@@ -232,7 +222,7 @@
                   <i class="fas fa-user"></i>
                 </span>
               </div>
-              <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+              <input id="username" type="text" class="form-control bg-dark text-white" placeholder="Name">
             </div>
           </div>
 
@@ -243,7 +233,7 @@
                   <i class="fas fa-envelope"></i>
                 </span>
               </div>
-              <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+              <input id="useremail" type="email" class="form-control bg-dark text-white" placeholder="Email">
             </div>
           </div>
 
@@ -254,7 +244,7 @@
                   <i class="fas fa-pencil-alt"></i>
                 </span>
               </div>
-              <textarea class="form-control bg-dark text-white" placeholder="Name"></textarea>
+              <textarea id="usermessage" class="form-control bg-dark text-white" placeholder="Message"></textarea>
             </div>
           </div>
 
@@ -268,7 +258,7 @@
     <footer id="main-footer" class="p-5 bg-dark text-white">
       <div class="row">
         <div class="col-md-6">
-          <a href="#" class="btn btn-outline-light">
+          <a href="img/Wilson Gaturu -Resume.pdf" download="Wilson_Gaturu_Resume.pdf"class="btn btn-outline-light">
             <i class="fas fa-cloud"></i> Download Resume
           </a>
         </div>
@@ -294,6 +284,19 @@
       e.preventDefault();
       $(this).ekkoLightbox();
     });
+
+    window.onload = e => {
+      const contactForm = document.querySelector("#contactForm");
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = document.querySelector("#username").value;
+        const email = document.querySelector("#useremail").value;
+        const message = document.querySelector("#usermessage").value;        
+        window.location.href = `mailto:wilsongaturu@gmail.com?subject=${name} - ${email}&body=${message}`
+      });
+      
+
+    }    
   </script>
 </body>
 

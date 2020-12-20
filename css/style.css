@@ -49,6 +49,32 @@ body {
   color: rgb(0, 191, 255)
 }
 
+.dayTrackerLogo, .kanairologo {
+  padding: 1rem;;
+  display:flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+
+}
+
+.kanairologo {
+  margin-top: -1rem ;
+  width: 10rem;
+}
+
+.kanairolinks {
+ display:block;
+ margin: 0rem !important;
+}
+
+.portfolio-copy {
+  font-size: 90%;
+}
+
+.porfolio-item {
+  margin-right: 3rem;
+}
+
 @media (min-width: 1199px) {
   .port-item {
     padding: 3em !important;
