@@ -25,6 +25,30 @@ body {
   height: 50% !
 } */
 
+.imgLogo {
+  margin-right: .3rem;
+  height: 0rem;
+}
+
+.imgLogo > img {
+  width: 100%;
+  height: auto;
+}
+
+.andela {
+  width: 2.5rem;
+  margin-top: -.3rem;  
+  
+}
+
+.site-link {
+  color: white;
+}
+
+.site-link:hover {
+  color: rgb(0, 191, 255)
+}
+
 @media (min-width: 1199px) {
   .port-item {
     padding: 3em !important;
